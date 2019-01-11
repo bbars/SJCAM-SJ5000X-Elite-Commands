@@ -164,6 +164,12 @@ http://192.168.1.254/?custom=1&cmd=3002
 ## List of Files and its Values:
 http://192.168.1.254/?custom=1&cmd=3015
 
+## Get Small Thumbnail (Replay mode shold be enabled):
+http://192.168.1.254/DCIM/MOVIE/2018_0101_001818_012.MP4?custom=1&cmd=4001
+
+## Get Medium Thumbnail (Replay mode shold be enabled):
+http://192.168.1.254/DCIM/MOVIE/2018_0101_001818_012.MP4?custom=1&cmd=4002
+
 ## Remaining Space (in Bytes):
 http://192.168.1.254/?custom=1&cmd=3017
 
@@ -216,10 +222,8 @@ http://192.168.1.254/?custom=1&cmd=3016
 - http://192.168.1.254/?custom=1&cmd=3024
 - http://192.168.1.254/?custom=1&cmd=3028
 - http://192.168.1.254/?custom=1&cmd=3030
-- http://192.168.1.254/?custom=1&cmd=4001
-- http://192.168.1.254/?custom=1&cmd=4002
-- http://192.168.1.254/?custom=1&cmd=4003
-- http://192.168.1.254/?custom=1&cmd=4004
+- http://192.168.1.254/?custom=1&cmd=4003 (caution: possibly removing files)
+- http://192.168.1.254/?custom=1&cmd=4004 (caution: possibly removing files)
 - http://192.168.1.254/?custom=1&cmd=8001
 - http://192.168.1.254/?custom=1&cmd=8002
 - http://192.168.1.254/?custom=1&cmd=9001
